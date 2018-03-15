@@ -14,8 +14,16 @@
 }
 
 .root {
-  background: #373277;
+  background: transparent;
   color: #fff;
+  background-image: url('./background.jpg');
+
+  height:100vh; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .container {
@@ -36,6 +44,7 @@
 
 .banner {
   text-align: center;
+  margin-top: 28%;
 }
 
 .bannerTitle {
@@ -44,11 +53,13 @@
   font-weight: normal;
   font-size: 4em;
   line-height: 1em;
+  border-bottom: 1px solid;
+  padding-bottom: 1.5%;
 }
 
 .bannerDesc {
   padding: 0;
-  color: rgba(255, 255, 255, 0.5);
+  padding-top: 3%;
   font-size: 1.25em;
   margin: 0;
 }

@@ -49,6 +49,12 @@ class Html extends React.Component {
           ))}
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="apple-touch-icon" href="/icon.png" />
+          <link
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossOrigin="anonymous"
+          />
           {styles.map(style => (
             <style
               key={style.id}
@@ -81,6 +87,10 @@ class Html extends React.Component {
               defer
             />
           )}
+          <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+          />
         </body>
       </html>
     );

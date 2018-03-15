@@ -3,13 +3,12 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+  Orrin Naylor -- Software Devloper
 
 # THANKS
 
-  <name>
+  Orrin
 
 # TECHNOLOGY COLOPHON
 
-  CSS3, HTML5, JavaScript
-  React Starter Kit -- https://reactstarter.com/
+  CSS3, HTML5, JavaScript, React
