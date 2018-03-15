@@ -16,20 +16,15 @@
 .root {
   background: transparent;
   color: #fff;
-  background-image: url('./background.jpg');
-
   height:100vh; 
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
 }
 
 .container {
   margin: 0 auto;
   padding: 20px 0;
   max-width: var(--max-content-width);
+  height: 100%;
+  display: grid;
 }
 
 .brand {
@@ -44,22 +39,42 @@
 
 .banner {
   text-align: center;
-  margin-top: 28%;
+  margin: auto;
 }
 
 .bannerTitle {
   margin: 0;
-  padding: 10px;
   font-weight: normal;
   font-size: 4em;
   line-height: 1em;
   border-bottom: 1px solid;
-  padding-bottom: 1.5%;
+  padding-bottom: 6%;
 }
 
 .bannerDesc {
   padding: 0;
   padding-top: 3%;
-  font-size: 1.25em;
+  font-size: 1.8em;
   margin: 0;
+}
+@keyframes example {
+  33% {padding-top: 0px;}
+  66% {padding-top: 15px;}
+  100% {padding-top: 0px;}
+}
+.navInvite{
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 100px;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 0px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
 }

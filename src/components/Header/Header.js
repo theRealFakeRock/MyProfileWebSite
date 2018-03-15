@@ -21,6 +21,11 @@ class Header extends React.Component {
             <p className={s.bannerDesc}>Full Stack Web Developer</p>
           </div>
         </div>
+        <div className={s.navInvite}>
+          <a className={s.down}>
+            <i className="fas fa-angle-down" />
+          </a>
+        </div>
       </div>
     );
   }

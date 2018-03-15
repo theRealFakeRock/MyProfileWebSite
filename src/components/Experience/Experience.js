@@ -17,8 +17,8 @@ class Experience extends React.Component {
       <div className={('container', s.root)}>
         <div className={s.container}>
           <div className="text-center">
-            <h1 className={s.header}>Experiences</h1>
-            <p>
+            <h2 className={s.header}>Experiences</h2>
+            <p className={s.quote}>
               “Protons give an atom its identity, electrons its personality.”
               <br />
               - Bill Bryson, A short history of nearly everything
@@ -37,7 +37,8 @@ class Experience extends React.Component {
               <p>
                 <strong>Bachelors In Computer Engineering</strong>
                 <br />
-                <span className="hidden-phone">
+                <span className={s.hiddenPhone}>
+                  <br />
                   Computer Engineering is an interdisciplinary degree. Combining
                   elements from Electrical Engineering and Computer Science.
                 </span>
@@ -48,6 +49,8 @@ class Experience extends React.Component {
                   </span>
                 </span>
               </p>
+              <br />
+              <br />
             </div>
             <br />
             <br />
@@ -64,7 +67,8 @@ class Experience extends React.Component {
               <p>
                 <strong>Associates Degree</strong>
                 <br />
-                <span className="hidden-phone">
+                <span className={s.hiddenPhone}>
+                  <br />
                   I received an Associates degree in general studies. My
                   electives were mostly Math, Physics, and Biological
                   Engineering
@@ -76,6 +80,8 @@ class Experience extends React.Component {
                   </span>
                 </span>
               </p>
+              <br />
+              <br />
             </div>
             <br />
           </div>
@@ -91,7 +97,8 @@ class Experience extends React.Component {
               <p>
                 <strong>High School Diploma</strong>
                 <br />
-                <span className="hidden-phone">
+                <span className={s.hiddenPhone}>
+                  <br />
                   Itineris is designed to help teens get college in highschool.
                   I was able to get my Associates degree in high school.
                 </span>
@@ -120,7 +127,8 @@ class Experience extends React.Component {
               <p>
                 <strong>Sr. Developer/CTO</strong>
                 <br />
-                <span className="hidden-phone">
+                <span className={s.hiddenPhone}>
+                  <br />
                   While working for Konka I was in charge of development and
                   quality control.
                 </span>

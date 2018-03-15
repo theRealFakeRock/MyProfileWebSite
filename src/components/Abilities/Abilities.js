@@ -17,8 +17,8 @@ class Abilities extends React.Component {
       <div className={('container', s.root)}>
         <div className={s.container}>
           <div className="text-center">
-            <h1 className={s.header}>Abilities</h1>
-            <p>
+            <h2 className={s.header}>Abilities</h2>
+            <p className={s.quote}>
               “Life without knowledge is death in disguise.”
               <br />
               - Talib Kweli
