@@ -143,5 +143,5 @@
     "serve": "babel-node tools/run runServer",
     "start": "babel-node tools/run start"
   },
-  "scripts": { "start" : "yarn run deploy"} 
+  "scripts": { "start" : "node ./build/server.js"} 
 }
