@@ -10,7 +10,8 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Projects.css';
-import site1 from './site1.jpg';
+import sunsetFarms from './SunsetFarms.PNG';
+import waterMeter from './WaterMeter.PNG';
 
 class Projects extends React.Component {
   render() {
@@ -28,19 +29,33 @@ class Projects extends React.Component {
           <div className="row">
             <div className="col-md-6 col-sm-12 col-xs-12">
               <figure>
-                <img alt="nerd girl" src={site1} />
+                <img alt="sunset farms" src={sunsetFarms} />
 
                 <figcaption>
-                  <h3>I love this title!</h3>
+                  <h3>Sunset Farms Project</h3>
+
+                  <p>A website for a local charity to manage it's members.</p>
 
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    <a href="https://sunsetfarm.herokuapp.com/">See More</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div className="col-md-6 col-sm-12 col-xs-12">
+              <figure className={s.marginTop}>
+                <img alt="Water Meter" src={waterMeter} />
+
+                <figcaption>
+                  <h3>Smart Water Meter</h3>
+
+                  <p>
+                    A personal project intended to help people in Southern Utah
+                    and Arizona save water.
                   </p>
 
                   <p>
-                    <a href="#">Read More</a>
+                    <a href="https://smrtwatermeter.herokuapp.com/">See More</a>
                   </p>
                 </figcaption>
               </figure>

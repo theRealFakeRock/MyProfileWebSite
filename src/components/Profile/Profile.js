@@ -10,7 +10,7 @@
 import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Profile.css';
-import profilePic from './profilePic.png';
+import profilePic from './profileCircle.png';
 
 class Profile extends React.Component {
   render() {

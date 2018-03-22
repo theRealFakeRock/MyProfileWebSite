@@ -46,7 +46,6 @@ figure {
   display: block;
   cursor: pointer;
   overflow: hidden;
-  border: 3px solid #fff;
 }
 
 figure:hover figcaption {
@@ -64,7 +63,7 @@ figcaption {
   height: 100%;
   width: 100%;
   top: 250px;
-  background: rgb(234,139,81, 0.2);
+  background: rgba(243, 106, 20, 0.8);
   color: #fff;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -81,7 +80,7 @@ figcaption {
 figcaption h3 {
   font-family: 'Open sans';
   font-weight: 400;
-  color: #f3b204;
+  color: rgb(200,200,200);
   padding: 10px 20px;
   margin-bottom: 0;
   position: relative;
@@ -92,6 +91,7 @@ figcaption h3 {
   -o-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-size: 3em;
 }
 
 figcaption p {
@@ -107,6 +107,7 @@ figcaption p {
   -o-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-size: 1.3em;
 }
 
 figure:hover h3,figure:hover p {
@@ -123,4 +124,29 @@ figcaption a {
 figcaption a:hover {
   color: #4f5856;
   background: #fff;
+}
+@media screen and (max-width: 600px) {
+  figcaption h3 {
+    font-family: 'Open sans';
+    font-weight: 400;
+    color: rgb(200,200,200);
+    padding: 10px 20px;
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 37px;
+    font-size: 30px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 2em;
+  }
+  
+  figcaption p {
+    font-size: 1.3em;
+  }
+  .marginTop{
+    margin-top: 30px;
+  }
 }
