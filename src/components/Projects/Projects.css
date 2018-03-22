@@ -125,6 +125,7 @@ figcaption a:hover {
   color: #4f5856;
   background: #fff;
 }
+
 @media screen and (max-width: 600px) {
   figcaption h3 {
     font-family: 'Open sans';
@@ -146,6 +147,7 @@ figcaption a:hover {
   figcaption p {
     font-size: 1.3em;
   }
+
   .marginTop{
     margin-top: 30px;
   }
